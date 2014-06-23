@@ -5,8 +5,17 @@ Router.map ->
   @route 'papers',
     path: '/papers'
 
+  @route 'courses',
+    path: '/courses'
+
   @route 'dashboard',
     path: '/dashboard'
+
+  @route 'cv',
+    path: '/cv'
+
+  @route 'login',
+    path: '/login'
 
   @route 'notFound',
     path: '*'
