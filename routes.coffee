@@ -2,6 +2,9 @@ Router.map ->
   @route 'home',
     path: '/'
 
+  @route 'papers',
+    path: '/papers'
+
   @route 'dashboard',
     path: '/dashboard'
 
